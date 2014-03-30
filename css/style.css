@@ -121,7 +121,10 @@ body {
     font: normal 300 16px/1.4 'helvetica neue', helvetica, arial, sans-serif;
 }
 
-
+.box {
+  width: 1000px;
+  margin: auto;
+}
 
 /******************************************
 /* small carousel
@@ -159,11 +162,9 @@ body {
   -o-object-fit: contain;
   top: 50px;
   left: 50%;
-  margin-left: -132px;
-  height:521px;
-  width:263px;
+  margin-left: -109px;
   overflow: hidden;
-  padding-top: 52px;
+  padding-top: 119px;
 }
 
 /******************************************
