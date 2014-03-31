@@ -1,3 +1,5 @@
+
+
 // On load we show first img only
 $('.carousel img:first-child').addClass('active');
 
