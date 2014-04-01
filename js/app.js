@@ -62,3 +62,21 @@ function removeClass(elem, name) {
     var c = elem.className;
     elem.className = c.replace(name, "").replace(/\s+/g, " ").replace(/^\s+|\s+$/g, "");  // remove name and extra blanks
 }
+
+
+
+
+
+
+
+
+
+
+// Parallax
+if('ontouchstart' in window == false){
+  $('body').mousemove(function(e){
+    var moveX = (e.pageX * -1 / 25);
+    var moveY = (e.pageY * -1 / 25);
+    $('#big img').css({'top': moveX + 'px', 'left':  moveY + 'px'});
+  });
+}

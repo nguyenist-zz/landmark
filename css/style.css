@@ -1,4 +1,6 @@
 
+
+
 /******************************************
 /* SETUP
 /*******************************************/
@@ -175,7 +177,7 @@ body {
 
 .carousel img {
     opacity: 0;
-    -webkit-transition: all 0.5s ease-in;
+    -webkit-transition: opacity 0.5s ease-in;
     /*properties, time, easing*/
 }
 .carousel img.active {
@@ -184,10 +186,9 @@ body {
 
 #big img{
   z-index: -999;
-  min-height: 100%;
-  min-width: 100%;
-  position: fixed;
-  -o-object-fit: contain;
+  min-height: 106%;
+  min-width: 106%;
+  position: absolute;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -297,6 +298,27 @@ h3{
     border-radius: 4px;
     background: #A80000;
 }*/
+
+#mc-embedded-subscribe {
+    border: 0;
+    width: 120px;
+    height: 46px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #A80000;
+}
+
+.emailSignup--email-input {
+    border: 0;
+    outline: 0;
+    width: 200px;
+    height: 46px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 4px;
+}
 
 
 
