@@ -89,18 +89,7 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-/*
-#bg {
-  position: fixed;
-  top: 0;
-  left: 0;
 
-   Preserve aspet ratio
-  min-width: 100%;
-  min-height: 100%;
-}
-*/
-/*Slideshow*/
 
 html, body {
   height: 100%;
@@ -259,76 +248,180 @@ h3 {
 
 
 
-
-
 /******************************************
-/* EMAIL
+/* EMAIL FORM
 /*******************************************/
 
-#mc_embed_signup{
-  clear:left;
-  font:14px Helvetica,Arial,sans-serif;
-  width:400px;
+.email: focus {
+  color: 255, 255, 255, 1);
+  border: 2px solid rgba (255, 255, 255, 1);
+  outline: none;
 }
 
-/*.emailSignup {
-    display: block;
-    margin: 0 0 20px;
+.email {
+    width:270px;
+    background: transparent;
+     margin-top:10px;
+     border: 2px solid rgba(255, 255, 255, 0.6);
+     -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+          -o-border-radius: 5px;
+         -ms-border-radius: 5px;
+             border-radius: 5px;
+     color: rgba(255, 255, 255, 0.7);
+     text-shadow:1px 1px 0px rgba(0, 0, 0, 0.1);
+     box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+     webkit-box-shadow:1px 1px 0px rgba(0, 0, 0, 0.1); ;
+    -moz-webkit-box-shadow:1px 1px 0px rgba(0, 0, 0, 0.1); ;
+    -ms-webkit-box-shadow:1px 1px 0px rgba(0, 0, 0, 0.1);;
+    -o-webkit-box-shadow:1px 1px 0px rgba(0, 0, 0, 0.1); ;
+     font-family: "Open Sans", Sans;
+     font-style: normal;
+     font-weight: ;
+     padding: 8px 15px;
+    -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+.button {
     position: relative;
-    box-sizing: border-box;
-    padding: 40px;
-    text-align: center;
+  width:120px;
+  margin-top:15px;
+  font-family: "Open Sans", Sans;
+  font-weight:700;
+  color:#fff;
+  text-align:center;
+  padding: 10px 0px;
+  background: #da292b;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+       -o-border-radius: 5px;
+      -ms-border-radius: 5px;
+          border-radius: 5px;
+/*  -webkit-box-shadow: 0px 3px 0px #9e0b0f;
+     -moz-box-shadow: 0px 3px 0px #9e0b0f;
+       -o-box-shadow: 0px 3px 0px #9e0b0f;
+      -ms-box-shadow: 0px 3px 0px #9e0b0f;
+          box-shadow: 0px 3px 0px #9e0b0f;*/
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
 }
 
-.emailSignup h2 {
+.button:hover {
+  background: #e94d4f;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+.button:active {
+  top: 4px;
+  background: #d44547;
+  cursor: pointer;
+    -webkit-box-shadow: 0px 1px 0px #9e0b0f;
+     -moz-box-shadow: 0px 1px 0px #9e0b0f;
+       -o-box-shadow: 0px 1px 0px #9e0b0f;
+      -ms-box-shadow: 0px 1px 0px #9e0b0f;
+          box-shadow: 0px 1px 0px #9e0b0f;
+}
+
+/******************************************
+/* RESPONSIVE
+/*******************************************/
+
+
+
+@media only screen and (max-width: 480px){
+
+h1{
+    font-size: 40px;
+    font-family: 'Syncopate', sans-serif;
+    line-height: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+.email{
+  position: block;
+  width:350px;
+}
+
+.button {
+    position: block;
+    margin: 10px 30px 0px 30px;
+}
+
+.mediaQueryCSS{
+    color:#CCCCCC !important;
+    font-size:20px !important;
+}
+
+
+.left{
+    text-align:center;
+    padding-top:110px;
+    color: white;
+}
+
+.right {
+  float:none;
+}
+
+#small img {
+  z-index: +5;
+  position: absolute;
+  -o-object-fit: contain;
+  top: 50px;
+  left: 50%;
+  margin-left: -109px;
+  overflow: hidden;
+  padding-top: 622px;
+}
+
+.container button {
+    background: #000;
+    border: 1px solid #000;
+    color: white;
     font-size: 16px;
-    margin: 0 0 10px;
-    color: #FFFFFF;
+    padding: 1em 4em;
+    border-radius: 10px;
+    display: inline;
+    position:relative;
+    margin: 0 auto;
 }
-}
-.emailSignup form {
+
+.btns{
     text-align:center;
 }
-.emailSignup--email-input {
-    border: 0;
-    outline: 0;
-    width: 200px;
-    height: 46px;
-    padding: 5px 10px;
-    box-sizing: border-box;
-    font-size: 16px;
-    border-radius: 4px;
-}
-.emailSignup--email-submit {
-    border: 0;
-    width: 120px;
-    height: 46px;
-    font-size: 16px;
-    color: #FFFFFF;
-    border-radius: 4px;
-    background: #A80000;
-}*/
 
-#mc-embedded-subscribe {
-    border: 0;
-    width: 120px;
-    height: 46px;
-    font-size: 16px;
-    color: #FFFFFF;
-    border-radius: 4px;
-    background: #A80000;
+
+.container button:hover {
+    background: lightsteelblue;
+    border-color: lightslategray;
 }
 
-.emailSignup--email-input {
-    border: 0;
-    outline: 0;
-    width: 200px;
-    height: 46px;
-    padding: 5px 10px;
-    box-sizing: border-box;
-    font-size: 16px;
-    border-radius: 4px;
+.container button:active {
+    background: lightslategray;
+}
+
+p {
+  line-height: 5px;
 }
 
 
 
+
+
+}
