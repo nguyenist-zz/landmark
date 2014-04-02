@@ -230,20 +230,30 @@ body {
 }
 
 .left{
-    padding-top:110px;
     text-align:center;
+    padding-top:110px;
     float:left;
     width:50%;
     color: white;
 }
 
+.text {
+    padding-top:20px;
+}
+
 h1{
     font-size: 60px;
     font-family: 'Syncopate', sans-serif;
+    line-height: 10px;
 }
 
-h3{
-    top: -40px;
+h3 {
+  padding-bottom: 30px;
+}
+
+.mailchimp {
+  padding-top: 40px;
+  text-align: center;
 }
 
 
