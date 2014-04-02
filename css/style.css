@@ -45,7 +45,6 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
-
 }
 
 
@@ -179,8 +178,6 @@ body {
   min-height: 106%;
   min-width: 106%;
   position: absolute;
-  top: 0;
-  left: 0;
   overflow: hidden;
 }
 
