@@ -363,6 +363,9 @@ h3 {
     margin: 10px 30px 0px 30px;
 }
 
+.phone{
+  clear:both;
+}
 
 .left{
     text-align:center;
@@ -382,7 +385,6 @@ h3 {
   left: 50%;
   margin-left: -109px;
   overflow: hidden;
-  padding-top: 622px;
 }
 
 .container button {
@@ -414,6 +416,32 @@ h3 {
 p {
   line-height: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

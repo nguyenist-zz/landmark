@@ -80,3 +80,14 @@ if('ontouchstart' in window == false){
     $('#big img').css({'top': moveX + 'px', 'left':  moveY + 'px'});
   });
 }
+
+
+
+
+
+
+
+
+
+
+
