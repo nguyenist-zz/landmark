@@ -340,7 +340,7 @@ h3 {
 
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 500px){
 
 h1{
     font-size: 40px;
@@ -361,11 +361,6 @@ h3 {
 .button {
     position: block;
     margin: 10px 30px 0px 30px;
-}
-
-.mediaQueryCSS{
-    color:#CCCCCC !important;
-    font-size:20px !important;
 }
 
 
