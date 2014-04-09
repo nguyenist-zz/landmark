@@ -178,7 +178,7 @@ body {
   min-height: 106%;
   min-width: 106%;
   position: absolute;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 
